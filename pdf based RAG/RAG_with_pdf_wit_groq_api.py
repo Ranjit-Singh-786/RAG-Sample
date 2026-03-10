@@ -1,7 +1,7 @@
+# RAG with system Groq api key
 import hashlib
 import os
 from pathlib import Path
-
 import streamlit as st
 from dotenv import load_dotenv
 from langchain.chains import ConversationalRetrievalChain
